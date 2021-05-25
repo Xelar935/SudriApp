@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_menu_news"
+            android:title="@string/menu_news" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_info_ecole" />
+        <item
+            android:id="@+id/nav_emploi"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_emploi_temps" />
+        <item
+            android:id="@+id/nav_discussion"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_discussion" />
+        <item
+            android:id="@+id/nav_reseaux"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_reseaux" />
+    </group>
+</menu>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Projet Inno</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_connexion">Connexion</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_connexion">Connexion</string>
+
+    <string name="menu_news">News</string>
+    <string name="menu_info_ecole">Info école</string>
+    <string name="menu_emploi_temps">Emploi du temps</string>
+    <string name="menu_discussion">Discussion</string>
+    <string name="menu_reseaux">Réseaux</string>
+
+</resources>

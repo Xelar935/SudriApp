@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_news">
+
+    <fragment
+        android:id="@+id/nav_news"
+        android:name="com.example.projetinno.ui.News.NewsFragment"
+        android:label="@string/menu_news"
+        tools:layout="@layout/fragment_news" />
+
+    <fragment
+        android:id="@+id/nav_info"
+        android:name="com.example.projetinno.ui.Info_ecole.InfoEcoleFragment"
+        android:label="@string/menu_info_ecole"
+        tools:layout="@layout/fragment_info_ecole" />
+
+    <fragment
+        android:id="@+id/nav_emploi"
+        android:name="com.example.projetinno.ui.Emploi_temps.EmploiTempsFragment"
+        android:label="@string/menu_emploi_temps"
+        tools:layout="@layout/fragment_emploi_temps" />
+
+    <fragment
+        android:id="@+id/nav_discussion"
+        android:name="com.example.projetinno.ui.Discussion.DiscussionFragment"
+        android:label="@string/menu_discussion"
+        tools:layout="@layout/fragment_discussion" />
+
+    <fragment
+        android:id="@+id/nav_reseaux"
+        android:name="com.example.projetinno.ui.Reseaux.ReseauxFragment"
+        android:label="@string/menu_reseaux"
+        tools:layout="@layout/fragment_reseaux" />
+</navigation>
